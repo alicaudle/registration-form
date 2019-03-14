@@ -12,12 +12,12 @@
 </head>
 <body>
 
-  <section class="max-length gutter">
-    <h1 class="pad-t normal push-0">Want to go to Mars?</h1>
-    <p class="mega pad-t">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-    <form method="POST" action="https://formspree.io/caud0001@algonquinlive.com">
+  <form method="POST" action="https://formspree.io/caud0001@algonquinlive.com">
+    <div class="max-length gutter">
+      <h1 class="pad-t-2 normal push-0">Want to go to Mars?</h1>
+      <p class="mega pad-t">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
       <fieldset>
-        <legend class="italic giga normal push">Personal details</legend>
+        <legend class="italic giga normal">Personal details</legend>
         <div class="grid">
           <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
             <label for="name">Name</label>
@@ -52,13 +52,13 @@
           <label for="details">Why do you want to go to Mars?</label>
           <textarea id="details" name="message" required></textarea>
         </div>
-        <div class="text-center">
+        <div class="text-center pad-b-2">
           <button class="btn" type="submit">Register for the trip!</button>
         </div>
       </fieldset>
       <input type="hidden" name="_subject" value="Request to join the mission">
-    </form>
-  </section>
+    </div>
+  </form>
 
 </body>
 </html>
